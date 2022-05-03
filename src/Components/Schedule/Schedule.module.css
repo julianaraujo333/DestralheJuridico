@@ -1,0 +1,16 @@
+.schedule{
+  text-align: center;
+}
+
+.schedule .subtitle{
+  color: var(--color-dark);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.wrapper{
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+}
