@@ -7,7 +7,12 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-18.04
+    stale:
+    runs-on: ubuntu-latest
+
+    permissions:
+      issues: write
+      pull-requests: write
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
