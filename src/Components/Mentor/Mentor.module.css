@@ -1,0 +1,47 @@
+.mentor{
+  background-image: url(../../Assets/TexturaChumbo.JPG);
+  background-position: center center;
+  min-height: 661px;
+
+}
+
+
+
+.wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+  padding-top: 5em;
+}
+
+/*
+.wrapper::after{
+  display: block;
+  content: '';
+  background: url('../../Assets/tutor.jpeg');
+  background-size: cover;
+}*/
+
+.wrapper img{
+  max-width: 95%;
+  max-height: 90%;
+}
+.wrapper img{
+  margin-left: 5rem;
+}
+
+.wrapper h4{
+  color: var(--color-dark);
+  margin-bottom: .7em;
+  font-size: 4rem;
+}
+
+.wrapper p{
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.wrapper strong{
+  color: var(--color-dark);
+  font-weight: bold;
+}

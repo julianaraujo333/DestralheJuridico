@@ -5,7 +5,7 @@ import styles from "./Schedule.module.css";
 const Schedule = () => {
   return (
     <section className={`${styles.schedule} container`}>
-      <h1 className="title">Confira a programação do evento</h1>
+      <h4 className="title">Confira a programação do evento</h4>
       <span className={styles.subtitle}>Totalmente online e gratuito</span>
 
       <div className={styles.wrapper}>
