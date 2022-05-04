@@ -34,3 +34,14 @@
 }
 
 
+@media screen and (max-width: 600px) { 
+  .collapse button{
+    align-items: center;
+  }
+
+  .collapse svg{
+    min-width: 1.125rem;
+  }
+}
+
+

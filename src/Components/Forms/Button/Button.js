@@ -6,6 +6,7 @@ const Button = () => {
     <div className={`${styles.wrapper} container`}>
       <a
         href="https://chat.whatsapp.com/L62ACsNRcTYHoEzSHQMZ1r"
+        target="_blank"
         className={styles.button}
       >
         Quero Participar
