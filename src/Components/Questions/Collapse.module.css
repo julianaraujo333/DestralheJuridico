@@ -1,0 +1,32 @@
+.collapse {
+  overflow: hidden;
+  transition: transform 1s;
+  background: #B6C4AB;
+  padding: 3em;
+  margin-bottom: 15px;
+  border-radius: 2px; 
+
+}
+
+.collapse > div {
+  overflow: auto;
+
+}
+
+h1, p {
+  margin: 0;
+}
+
+button {
+  font-size:1.125rem;
+  display: block;
+  background: var(--color-light);
+  padding: 15px 2em 15px 2em;
+  border-radius: 2px;
+  color: var(--color-white);
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  text-align: left;
+  margin-top:15px;
+}

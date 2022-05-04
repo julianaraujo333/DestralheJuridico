@@ -1,0 +1,13 @@
+.questions {
+  margin-bottom: 5em;
+}
+.questions span{
+  color: var(--color-dark);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.questions >div{
+  margin-top: 3.5rem;
+
+}

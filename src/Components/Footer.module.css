@@ -10,3 +10,7 @@
 .footer p{
   margin-top: 1rem;
 }
+
+.footer img{
+  max-width: 350px;
+}
