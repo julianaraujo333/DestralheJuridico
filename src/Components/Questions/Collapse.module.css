@@ -1,32 +1,36 @@
-.collapse {
+.collapseContent {
+  box-sizing:border-box;
   overflow: hidden;
   transition: transform 1s;
   background: #B6C4AB;
   padding: 3em;
   margin-bottom: 15px;
   border-radius: 2px; 
+  max-width: 100%;
+
 
 }
 
-.collapse > div {
+.collapseContent > div {
   overflow: auto;
 
 }
 
-h1, p {
-  margin: 0;
-}
 
-button {
+.collapse button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: var(--color-light);
+
   font-size:1.125rem;
-  display: block;
-  background: var(--color-light);
   padding: 15px 2em 15px 2em;
   border-radius: 2px;
   color: var(--color-white);
-  width: 100%;
   border: 0;
   cursor: pointer;
   text-align: left;
   margin-top:15px;
 }
+
+
