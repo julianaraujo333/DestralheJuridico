@@ -16,7 +16,7 @@
 .wrapper img{
   max-width: 95%;
   max-height: 90%;
-  padding:2rem 0 2rem 0;
+  padding:2rem 0 5rem 0;
 }
 
 
@@ -24,6 +24,7 @@
   color: var(--color-dark);
   margin-bottom: .7em;
   font-size: 2.5rem;
+  margin-top:5rem;
 }
 
 .wrapper p{
@@ -36,14 +37,11 @@
   font-weight: bold;
 }
 
-@media screen and (min-width: 600px) { 
-  
-
+@media screen and (min-width: 1000px) { 
    .wrapper{
       display: grid;
       grid-template-columns: 1fr 1fr;
     
-      padding-top: 2.5em;
     }
 
   .wrapper img{
@@ -52,6 +50,7 @@
   }
 
   .wrapper h4{
+    margin-top:0px;
     font-size: 4rem;
   }
-  }
+}

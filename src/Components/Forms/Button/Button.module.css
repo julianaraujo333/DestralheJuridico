@@ -1,5 +1,6 @@
 .button {
   padding: 1.3em 5em;
+  letter-spacing: .5rem;
   text-transform: uppercase;
   background-color: var(--color-light);
   border: none;
@@ -30,10 +31,9 @@
   margin-bottom: 5em;
  }
 
-
  @media screen and (max-width: 600px) { 
   .button{
     padding: 1.3em 3em;
+    letter-spacing: 1.5px;
   }
-
 }
