@@ -43,7 +43,7 @@ const Stakeholders = () => {
           <h4 className="title">Esse evento é para você que:</h4>
           <span>(marque o que acontece com você)</span>
         </div>
-        <div>
+        <div className={styles.switch}>
           {data.map((content) => (
             <SwitchButton key={content.id} content={content.content} />
           ))}

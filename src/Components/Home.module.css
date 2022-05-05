@@ -3,3 +3,8 @@
   width: 100vw;
   height: 100vh;
 }
+
+.home svg{
+  font-size:1.125rem;
+  margin-right: .7rem;
+}

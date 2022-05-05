@@ -68,16 +68,7 @@ table {
   z-index:1;
 }
 
-/**
-.title::after{
-  content: '';
-  display: block;
-  width: 1.5rem;
-  height: 1.5rem;
-  background: var(--color-light);;
-  position: absolute;
-  bottom: 5px;
-  left: -5px;
-  border-radius: 0.2rem;
-  z-index: -1;
-}**/
+strong{
+  color: var(--color-dark);
+  font-weight: bold;
+}

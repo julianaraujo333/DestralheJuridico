@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Home.module.css";
+import { BsCalendar } from "react-icons/bs";
 
 const Home = () => {
   return (
@@ -11,7 +12,11 @@ const Home = () => {
         prospectar clientes
       </p>
 
-      <span>Data - Dias 23, 24 e 25 de maio, às 20h27</span>
+      <span>
+        {" "}
+        <BsCalendar color="#254528" />
+        Dias <strong>23, 24 e 25 de maio</strong>, às 20h27
+      </span>
     </header>
   );
 };
