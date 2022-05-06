@@ -4,7 +4,6 @@
   text-transform: uppercase;
   background-color: var(--color-light);
   border: none;
- /* border-radius: 45px;*/
   border-radius: 2px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease 0s;

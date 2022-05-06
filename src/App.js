@@ -12,7 +12,7 @@ import Banner from "./Components/Banner/Banner";
 function App() {
   return (
     <div>
-      <Countdown />
+      {/* <Countdown />*/}
       <Home />
       <Banner />
       <Schedule />
