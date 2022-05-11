@@ -1,6 +1,7 @@
 .stakeholders{
   background-image: url(../../Assets/TexturaChumbo.JPG);
   background-position: center center;
+  background-size: cover;
   padding-bottom: 1em;
   padding-top:5em;
 }

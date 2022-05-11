@@ -1,6 +1,7 @@
 .mentor{
   background-image: url(../../Assets/TexturaChumbo.JPG);
   background-position: center center;
+  background-size: cover;
   min-height: 661px;
   margin-bottom: 5em;
 }
