@@ -1,4 +1,4 @@
-.countdown{
+.wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +9,11 @@
   border-radius: 0 0 5px 5px;
 }
 
+.countdown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .countdown span{
   margin-left: 3px;
   margin-right: 3px;

@@ -11,16 +11,15 @@ const Banner = () => {
         <div className={styles.box}>
           <BsCalendar />
           <p>
-            De 23 a 25 de maio vamos{" "}
-            <strong>Destralhar juntos seu instagram jurídico</strong> com
-            soluções e estrategias que funcionam.
+            De 23 a 25 de maio vamos juntas fazer um destralhe do seu perfil e
+            retirar tudo o que só vem atrapalhando seu crescimento.
           </p>
         </div>
         <div className={styles.box}>
           <AiOutlineYoutube />
           <p>
-            O evento é <strong>100% gratuito e online</strong> no Youtube,
-            sempre às 20h27, fique atento as aulas ficarão online por um dia.
+            O evento é <strong> 100% gratuito </strong>e vai acontecer ao vivo
+            no Youtube, sempre às 20h27. Fique atenta para não perder!
           </p>
         </div>
         <div className={styles.box}>
@@ -30,8 +29,8 @@ const Banner = () => {
             <a href="https://chat.whatsapp.com/L62ACsNRcTYHoEzSHQMZ1r">
               grupo do WhatsApp
             </a>
-            , onde serão disponiveis os links das aulas, materiais e conteudos
-            extras.
+            . Ele é um grupo silencioso, onde você receberá os links das aulas e
+            materiais extras.
           </p>
         </div>
       </div>

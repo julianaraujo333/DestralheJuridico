@@ -1,16 +1,13 @@
 import React from "react";
 import styles from "./ScheduleCard.module.css";
 
-const ScheduleCard = () => {
+const ScheduleCard = ({ title, subtitle, description }) => {
   return (
     <div className={styles.card}>
-      <h4>Aula 01</h4>
-      <span>Tirando as tralhas</span>
+      <h4>{title}</h4>
+      <span>{subtitle}</span>
       <hr />
-      <p>
-        Elimine os erros e confusões que estão estagnando seu perfil e causando
-        bloqueio criativo
-      </p>
+      <p>{description}</p>
     </div>
   );
 };
