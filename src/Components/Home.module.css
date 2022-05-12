@@ -1,7 +1,7 @@
 .home{
   background: #728860;
   max-width: 100vw;
-  height:100vh;
+  min-height:103vh;
   position: relative;
 
   display: flex;
